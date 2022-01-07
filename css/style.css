@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(110, 165, 248);
+}
+
+.cabecalho{
+    background-color: blueviolet;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 2em;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+.cabecalho__titulo{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0.3em;
+}
+
+.quiz-container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    width: 400px;;
+    padding: 1em;
+    margin-left: 33%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    }
+
+    @media screen and (max-width: 500px){
+        .quiz-container{
+            margin-left: 4%;
+            margin-right: 5%;
+            margin-top: 19%;
+            margin-bottom: 25%;
+            width: 350px;
+            
+        }
+
+
+    }
+
+    #question{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.4em;
+        margin-bottom: 0.7em;
+        
+    }
+
+    @media screen and (max-width: 500px){
+        #question{
+            text-align: center;
+        };
+    }
+
+.answer{
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        
+    }
+
+    @media screen and (max-width: 500px){
+        .answer{
+            margin-left: 20%;
+        }
+    }
+
+
+.alternativas{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 1em;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+h2{
+    margin:0;
+
+}
+
+ul li{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button{
+    background-color: salmon;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 0.6em;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: rgb(182, 62, 49);
+}
+
+@media screen and (max-width: 500px){
+    button{
+        width: 70%;
+        margin-left: 17%;
+    }
+}
+@media screen and (max-width: 500px){
+    button:hover{
+        background-color: salmon;
+    }
+}
+
+.rodape{
+    text-align: center;
+    background-color: blueviolet;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.final{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4em;
+    padding-top: 3em;
+    padding-bottom: 3.3em;
+}
